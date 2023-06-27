@@ -507,17 +507,22 @@ a:focus {
 
 .about .skills {
     margin-bottom: 30px;
+    
 }
 
 .about .skill-name {
     margin-top: 15px;
+    
 }
 
 .about .skill-name p {
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: larger;
+    font-weight: bolder; 
+    
+    forced-color-adjust: black;
+    
 }
 
 .about .skill-name p:last-child {
