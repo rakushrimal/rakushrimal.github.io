@@ -471,6 +471,75 @@ a:focus {
 /*******************************/
 /********** About CSS **********/
 /*******************************/
+
+/* About Section Styles */
+.about {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-content {
+    padding-left: 30px;
+}
+
+.about-text {
+    margin-bottom: 25px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Skills Layout Fix */
+.skills-container {
+    margin-top: 20px;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skills-list {
+    display: flex;       /* This puts items in a row */
+    flex-wrap: wrap;     /* This forces items to a new line when the row is full */
+    gap: 10px;           /* This creates space between the tags */
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 6px 15px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 50px; /* Makes the "pill" shape */
+    font-size: 14px;
+    font-weight: 500;
+    color: #495057;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect to show Front-End Skill */
+.skill-tag:hover {
+    background: #3498db;
+    color: #ffffff;
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/*
 .about {
     position: relative;
     width: 100%;
@@ -525,8 +594,11 @@ a:focus {
 
 .skills-list {
     display: flex;       /* Enables Flexbox */
+/*
     flex-wrap: wrap;     /* Tells skills to jump to the next line when the row is full */
+/*
     gap: 10px;           /* Puts a 10px gap between skills (no need for <br>) */
+/*
     padding: 10px 0;}
 
 .skill-tag {
@@ -541,12 +613,14 @@ a:focus {
 /*  padding: 8px 16px;
     border-radius: 20px; /* Makes them look like pills 
     border: 1px solid #dcdde1;*/
+/*
     font-size: 14px;
     font-weight: 500;
     transition: all 0.3s ease;
 }
 
 /* Hover effect to show off your front-end skills */
+/*
 .skill-tag:hover {
     background-color: #3498db;
     color: white;
@@ -601,7 +675,7 @@ a:focus {
         padding: 45px 15px 0 15px;
     }
 }
-
+*/
 
 /*******************************/
 /******* Experience CSS ********/
